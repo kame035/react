@@ -1,0 +1,58 @@
+header {
+    width: fit-content;
+    height: 100vh;
+    background-color: #FFFFFF;
+    padding: 2em 1em;
+    border-radius: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; /* Сохраняем позиционирование */
+    flex-shrink: 0; /* Шапка не сжимается */
+    z-index: 222222222;
+}
+
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+}
+header img{
+    width: 3em;
+}
+@media screen and (max-width: 438px) {
+    header img{
+        width: 10%;
+    }
+    header nav{
+        gap: 1.5em;
+    }
+}
+@media screen and (max-width: 360px) {
+    .logo{
+        display: none;
+    }
+    header nav{
+        gap: 2em;
+    }
+    
+}
+@media screen and (max-width: 793px) {
+    header {
+        position: fixed; /* Закрепляем шапку */
+        bottom: 0; /* Прилепляем к низу */
+        flex-direction: row; /* Горизонтальное расположение */
+        width: 100%; /* Занимает всю ширину */
+        height: auto; 
+        z-index: 1000;
+        padding:0.1em  1.3em ;
+        box-shadow: 1px 1px 5px grey;
+        margin-bottom: 0.1em ;
+    }
+
+    header nav {
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,15 @@
+.pageItem {
+    background-color: white;
+    border-radius: 3em;
+    padding: 3em 2em;
+    min-height: 100vh; /* Минимальная высота 100% от высоты экрана */
+    height: auto; /* Автоматическая высота, чтобы блок мог расширяться */
+    box-sizing: border-box; /* Включает padding в общую высоту элемента */
+}
+
+@media screen and (max-width:321px) {
+    .pageItem{
+        padding: 1em 0.3em;
+    }
+}
+

@@ -1,0 +1,38 @@
+.discussion-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin-top: 2%;
+}
+.discussion-item{
+    background-color: #F1F1F1;
+    padding: 2%;
+    border-radius: 1em;
+}
+.user-avatar {
+    width: 2.5em;
+    height: 2.5em;
+    margin-right: 1%;
+}
+
+.user-info span{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.267);
+    padding-left: 10px;
+}
+.discussion-header{
+    display: flex;
+}
+.info{
+    flex-direction: column;
+}
+.count{
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+    color: #b7b7b7;
+}
+.info h3{
+    font-size: 1.7em;
+    padding-top: 1%;
+}

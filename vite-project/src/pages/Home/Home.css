@@ -1,0 +1,81 @@
+.py{
+    margin: 20px 0;
+}
+.radius{
+    border-radius: 3.375em;
+}
+.home {
+display: flex;
+    gap: 2em;
+    background-color: #FFFFFF;
+    border-radius: 3.375em;
+    padding: 8% 0 8% 8%;
+
+}
+
+.home-text {
+    width: 50%;
+    max-width: 30rem;
+    margin-bottom: 2rem;
+}
+
+
+.swiper-container {
+   width: 45%;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    width: auto; /* Пусть Swiper сам управляет шириной */
+    flex-shrink: 0; 
+    margin-bottom: 20px;
+    width: 100px;
+}
+
+.swiper-slide img {
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.swiper-scrollbar {
+    background: #DBC1EF;
+}
+
+.swiper-scrollbar-drag {
+    background: #B584DE;
+}
+
+.swiper-slide p,
+.swiper-slide h4 {
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+.input-email{
+    border-radius: 3.375em;
+    background-color: #B584DE;
+}
+.input-email img{
+    max-width: 30%;
+    transform: translateY(-50px);
+}
+@media screen and (max-width:782px) {
+    .home{
+        flex-direction: column;
+        gap: 1em;
+    }
+    .home-text, .swiper-container{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:783px) {
+    .home{
+        flex-direction: column;
+        gap: 1em;
+        padding: 8%;
+    }
+    
+}

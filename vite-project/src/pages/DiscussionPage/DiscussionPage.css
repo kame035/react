@@ -1,0 +1,53 @@
+.discus{
+    display: flex;
+    gap: 1em;
+}
+.discussion-page{
+    background-color: white;
+    border-radius: 2em;
+    padding: 3% 10% ;
+    min-height: 100vh;
+}
+.disc-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.discussion-ques{
+    background-color: #F6F6F6;
+    padding: 2em;
+    border-radius: 1.5em;
+}
+.discussion-ques h2{
+    font-weight: 600;
+    font-size: 2.3em;
+}
+.book-cover{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+.date{
+    color: #a1a1a1;
+    font-size: 12px;
+}
+.favorite-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #B584DE;
+    transition: background-color 0.3s ease;
+}
+
+.favorite-button.active {
+    background-color: #B584DE;
+}
+
+.favorite-button:hover {
+    opacity: 0.8;
+}

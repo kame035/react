@@ -1,0 +1,11 @@
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.error{
+    border: 1px solid red;
+}

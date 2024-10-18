@@ -1,0 +1,80 @@
+*{
+    text-decoration: none;
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8em;
+    
+}
+.about-book{
+display: flex;
+align-items: center;
+gap: 1em;
+}
+.about-book p{
+    display: flex;
+    align-items: center;
+    color: #CAC4C4;
+    font-size: 13px;
+    color: #44474a;
+
+}
+.item{
+    margin-bottom: 2%;
+}
+.item p{
+    font-weight: 500;
+    font-size: 1em;
+    padding: 0.1em 0;
+}
+.about-book p{
+    font-weight: 300;
+    font-size: 13px;
+}
+.items img{
+    width: 10em;
+     height: auto
+}
+.items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 10em;
+}
+
+.item img {
+    width: 100%; 
+    height: auto;
+}
+
+.item-title {
+    white-space: nowrap; /* Запрещаем перенос строки */
+    overflow: hidden; /* Обрезаем текст, если он выходит за пределы */
+    text-overflow: ellipsis; /* Добавляем многоточие (...) в конце обрезанного текста */
+    max-width: 100%; /* Максимальная ширина равна ширине родительского элемента */
+    font-size: 14px;
+}
+
+.advice{
+    margin-top: 2em;
+}
+@media screen and (max-width:321px) {
+    .items{
+        justify-content: center;
+        gap: 0.2em;
+    }
+
+}
+@media screen and (max-width:584px) {
+    .items{
+        gap: 0.1em;
+    }
+}
+@media screen and (max-width:668px) {
+    .item{
+        width: 8em;
+    }
+}

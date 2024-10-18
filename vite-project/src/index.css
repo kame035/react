@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+}
+.root{
+    position: relative;
+}
+
+body {
+position: relative;
+    margin: 0 auto;
+    background-color: #EEEBF4;
+
+}
+.wrapper {
+    position: relative;
+    display: flex; /* Горизонтальное расположение */
+    align-items: flex-start; /* Выравниваем элементы по верхнему краю */
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%; /* Занимает всю доступную ширину */
+}
+
+
+.container {
+    margin: 0 auto;
+    flex-grow: 1;
+    width: 90%;
+    padding-left: 100px;
+}
+
+
+h1 {
+    font-weight: 700;
+    font-size:  2em; 
+    color: #b584de;
+}
+
+p {
+    font-weight: 400;
+    font-size: 1em;
+    color: #1e1e1e;
+}
+
+a{
+    color: black;
+}
+
+h4 {
+    font-weight: 600;
+}
+@media screen and (max-width:792px) {
+    .container{
+        padding: 0;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 793px) {
+    .wrapper{
+        flex-direction: column;
+    }
+}
